@@ -1,7 +1,7 @@
 # Calcme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
-
+  Api da aplicação CALCME. A aplicação resume-se a envio de dados de um usuário com o email, nome e telephone e salvar isso no banco de dados.
+  
 ## Requisitos
  - Angular 10
  - Node.js 12

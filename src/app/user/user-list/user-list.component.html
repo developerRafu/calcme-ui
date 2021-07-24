@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6 col-sm-4"></div>
+        <div class="col-6 col-sm-4 d-grid gap-2 mt-5">
+            <button class="btn btn-primary" (click)="redirect()">Novo Usuário</button>
+        </div>
+        <div class="col-6 col-sm-4"></div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-6 col-sm-4"></div>
+        <div class="col-6 col-sm-4">
+            <ul class="list-unstyled" *ngFor="let user of users">
+                <div class="card">
+                    <li class="card-body">{{user.name}}</li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-6 col-sm-4"></div>
+    </div>
+</div>
